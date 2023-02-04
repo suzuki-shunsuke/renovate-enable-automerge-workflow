@@ -14,10 +14,14 @@ jobs:
   enable-automerge:
     uses: suzuki-shunsuke/renovate-enable-automerge-workflow/.github/workflows/enable_automerge.yaml@main
     secrets:
-      github_app_id: ${{secrets.GH_APP_ID}}
-      github_app_private_key: ${{secrets.GH_APP_PRIVATE_KEY}}
+      gh_app_id: ${{secrets.GH_APP_ID}}
+      gh_app_private_key: ${{secrets.GH_APP_PRIVATE_KEY}}
     permissions: {}
 ```
+
+## Workflow
+
+[Workflow](.github/workflows/enable_automerge.yaml)
 
 ## Requirements
 
